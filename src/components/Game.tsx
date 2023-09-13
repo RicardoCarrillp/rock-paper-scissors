@@ -18,14 +18,14 @@ export default function Game() {
 
   return (
     <>
-      <div className="bg-indigo-300 h-screen pt-10">
+      <div className="bg-indigo-300 h-screen pt-5">
         <div className="flex justify-center items-center object-cover bg-indigo-300">
           <img src={logo} alt="" className="h-44"/>
         </div>
         {/* <img src={logo} alt="" className="w-20 h-30" /> */}
 
-        <div className="flex justify-center items-start pt-10 bg-indigo-300">
-          <div className="text-center bg-gray-100 w-90 m-2 rounded-2xl">
+        <div className="flex justify-center items-start  bg-indigo-300">
+          <div className="text-center bg-gray-100 w-screen m-20 rounded-2xl">
             <h1 className="text-3xl">Lets play!</h1>
             <div className="flex justify-center p-3 gap-4">
               {
